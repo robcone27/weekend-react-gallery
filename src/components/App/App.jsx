@@ -35,7 +35,7 @@ return (
       <header className="App-header">
         <h1 className="App-title">Gallery of My Life</h1>
       </header>
-      <p>Gallery goes here</p>
+     
 
     <GalleryList
         list={galleryList}
@@ -48,14 +48,3 @@ return (
 export default App;
 
 
-// const getGalleryList = () => {
-  //   Axios
-  //   .get("/gallery")
-  //   .then((response) => {
-  //     console.log("Gallery list", response.data);
-  //     setGalleryList(response.data);
-  //   })
-  //   .catch((err) => {
-  //     console.log("error getting galleryList", err)
-  //   });
-  // };

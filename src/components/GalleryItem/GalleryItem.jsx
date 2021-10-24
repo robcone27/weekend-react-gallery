@@ -24,7 +24,7 @@ function GalleryItem({object, onLike}) {
   
         {toDisplay()}
   
-        <button onClick={() => onLike(object.id)}>Like!</button>
+        <button onClick={() => onLike(object.id)}>Like</button>
   
         <p>{object.likes} likes</p>
         
